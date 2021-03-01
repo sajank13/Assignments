@@ -1,0 +1,72 @@
+.first{
+    background-color: rgba(144, 236, 236, 0.37);
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 100%;
+    height: 200%;
+}
+div.second{
+    border: 2px solid rebeccapurple;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+    background-color: rgba(38, 20, 196, 0.76);
+}
+h2{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20%;
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+}
+h4{
+    text-align: end;
+}
+h2:hover{
+    color: royalblue;
+    background-color: orange;
+}
+div.third{
+    text-align: center;
+    border: 1px solid rgba(144, 236, 236, 0.37);
+    padding: 20px;
+}
+div.fourth{
+    border: 2px solid black;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+dt {
+    background: #B8C1C8;
+    border-bottom: 1px solid #989EA4;
+    border-top: 1px solid #717D85;
+    color: #FFF;
+    font: bold 30px/21px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+  }
+  dt:hover{
+      color: rgb(114, 10, 241);
+      background-color: red
+  }
+  dd {
+    font: bold 20px/45px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 0 12px;
+    white-space: nowrap;
+  }
+  dd:hover{
+      background-color: rgb(206, 72, 106);
+  }
+  dd + dd {
+    border-top: 1px solid #CCC;
+  }

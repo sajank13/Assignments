@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html { 
+    background-color: black;
+  }
+
+button{
+
+  margin:  340px 100px 0px 600px;
+  width: 150px;
+  height: 70px;
+  background-color: red;
+  transition-property: all;
+  transition-duration: 1.5s;
+  transition-delay: 200ms;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  outline: none;
+
+
+}
+
+
+
+button:hover{
+ background-color:#0D1328;
+ border: 2px solid rgb(146, 148, 248);
+ cursor: pointer;
+ transform:translateY(-10px);
+ box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}

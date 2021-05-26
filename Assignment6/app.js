@@ -1,6 +1,3 @@
-// const btn = document.getElementById("btn");
-// let todo = document.getElementById("todo");
-
 let inputText = document.querySelector('input');
 const btn = document.getElementById('btn');
 const ul = document.querySelector('ul');

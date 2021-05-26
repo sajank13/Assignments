@@ -38,7 +38,6 @@ function todo(){
             li.innerText = p;
             li.appendChild(dBtn);
             li.appendChild(edit);
-
         }
     }
 }
